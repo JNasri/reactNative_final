@@ -4,7 +4,6 @@ import HeadingText from "../components/Text/HeadingText";
 import AlarmModal from "../components/Alarm/AlarmModal";
 import SingleAlarm from "../components/Alarm/SingleAlarm";
 import AlarmsText from "../components/Text/AlarmsText";
-import LangButton from "../components/LangButton/LangButton";
 
 export default function AlarmScreen() {
   const [Alarms, setAlarms] = useState([]);
